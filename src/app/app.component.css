@@ -1,51 +1,39 @@
-.fatherBox {
-  width: 900px;
-  height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: lightgreen;
+.container {
+  position: relative;
+  border: solid lightgreen;
 }
 
-.secondBox {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  align-items: center;
-  width: 60%;
-  height: 60%;
+
+nav {
+  postion: absolute;
+  left: 0px;
+  width: 200px;
+  border: solid fuchsia;
+  float: left;
+}
+
+section {
+  margin-left: 200px;
+  border: solid yellow;
+}
+
+body {
+  margin-bottom: 120px;
+}
+
+p {
+  margin-left: 20px;
+}
+
+li {
+  margin-left: 30px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
   background-color: white;
-}
-
-.childBox {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  align-items: center;
-  width: 50%;
-  height: 80%;
-
-}
-.thirdBox {
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 10px;
-  background-color: lavender;
-}
-
-
-.fourthBox {
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 10px;
-  background-color: green;
-  text-align: center;
-}
-
-
-.fifthhBox {
-  width: 100%;
-  text-align: center;
+  width: 100%
 }
